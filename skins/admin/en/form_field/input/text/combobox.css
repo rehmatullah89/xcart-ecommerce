@@ -1,0 +1,63 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Combobox styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+input.combobox {
+  float: left;
+  padding-right: 21px;
+}
+
+.input:hover div.combobox-select {
+  display: inline;
+}
+
+div.combobox-select {
+  background: transparent url(../../../images/combobox_select.png) center center no-repeat;
+  width: 26px;
+  height: 10px;
+  float: left;
+  display: inline;
+  position: relative;
+  top: 30px;
+  right: 211px;
+  cursor: pointer;
+  z-index: 1;
+  display: none;
+}
+
+.ui-autocomplete {
+  border: 1px solid #999999;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  font-family: Helvetica,Arial,sans-serif;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+.ui-autocomplete.ui-menu .ui-menu-item a {
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  text-align: left;
+  padding: 5px 8px;
+  margin: 0;
+  font-size: 14px;
+  color: #2664b0;
+}
+
+.ui-menu .ui-menu-item a.ui-state-hover {
+  background: #f2f2f2;
+  margin: 0;
+  color: #2664b0;
+}

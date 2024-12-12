@@ -1,0 +1,62 @@
+[info, Apr 09 2014 11:43:16] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 09 2014 11:43:18] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 09 2014 12:03:29] Marketplace [get_addons]: the "https://my.x-cart.com/index.php?q=api/get_addons" URL requested
+[error, Apr 09 2014 12:03:31] Marketplace [get_addons]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 09 2014 13:05:02] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 09 2014 13:05:02] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 10 2014 05:55:38] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 10 2014 05:55:40] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 10 2014 07:21:51] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 10 2014 07:21:52] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 10 2014 09:30:08] Marketplace [get_addons]: the "https://my.x-cart.com/index.php?q=api/get_addons" URL requested
+[error, Apr 10 2014 09:30:09] Marketplace [get_addons]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 11 2014 05:54:03] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 11 2014 05:54:06] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 11 2014 10:00:07] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 11 2014 10:00:07] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 11 2014 10:54:11] Marketplace [get_addons]: the "https://my.x-cart.com/index.php?q=api/get_addons" URL requested
+[error, Apr 11 2014 10:54:12] Marketplace [get_addons]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 11 2014 12:16:19] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 11 2014 12:16:22] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 11 2014 14:25:44] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 11 2014 14:25:45] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 15 2014 05:42:28] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 15 2014 05:42:31] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 15 2014 10:12:20] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 15 2014 10:12:23] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 15 2014 12:43:44] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 15 2014 12:43:44] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 16 2014 05:36:27] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[info, Apr 16 2014 05:36:27] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 16 2014 05:36:30] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[error, Apr 16 2014 05:36:30] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 17 2014 05:51:51] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 17 2014 05:51:53] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 17 2014 12:51:15] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 17 2014 12:51:16] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 17 2014 13:55:53] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 17 2014 13:55:53] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 18 2014 06:09:11] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 18 2014 06:09:13] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed (60)
+[info, Apr 21 2014 06:11:17] Marketplace [check_for_updates]: the "https://my.x-cart.com/index.php?q=api/check_for_updates" URL requested
+[error, Apr 21 2014 06:11:35] Marketplace [check_for_updates]: can't connect to the marketplace server: Curl Could not resolve host: my.x-cart.com; Host not found, try again (6)

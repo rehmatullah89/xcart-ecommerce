@@ -1,0 +1,44 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (FR)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Language:
+  - { code: 'de', module: 'CDev\DeTranslation' }
+
+XLite\Model\LanguageLabel:
+  - { name: 'modules', translations: [{ code: 'de', label: 'add-ons' }] }
+  - { name: 'Installed', translations: [{ code: 'de', label: 'Bereits installiert' }] }
+  - { name: 'Alternatively, upload file sqldump.sql.php to the var/backup/ sub-directory click on the "Restore from server" button', translations: [{ code: 'de', label: 'Ersatzweise, hochladen Sie eine Datei  sqldump.sql.php in die var/backup/ Unterverzeichnis des X-Cart 5-Verzeichnises am Webserver und klicken Sie auf den Button "Restore from server". Nach der Rücksicherung könnte Sie auf den Button "Delete SQL file" klicken, um die Datei vom Webserver zu löschen.' }] }
+  - { name: 'Backup database', translations: [{ code: 'de', label: 'Datenbank sicherstellen' }] }
+  - { name: 'Backup & Restore', translations: [{ code: 'de', label: 'Sicherstellen und umspeichern' }] }
+  - { name: 'How to restore your X-Cart 5 database', translations: [{ code: 'de', label: 'Wie man eine X-Cart 5-Datenbank umspeichert ' }] }
+  - { name: 'If you don''t have a moneybookers account yet, please sign up for a free moneybookers account at: http://www.skrill.com', translations: [{ code: 'de', label: 'Wenn Sie noch kein Skrill-Account besitzen, erstellen Sie bitte einen freien Account  unter http://www.skrill.com' }] }
+  - { name: 'Link your website domain name', translations: [{ code: 'de', label: 'Verlinken Sie Ihre Webseite <a href="{{url}}">domain name<a/>' }] }
+  - { name: 'Installed Modules', translations: [{ code: 'de', label: 'Add-ons verwalten' }] }
+  - { name: 'Skrill Quick Checkout enables you to take direct payment from credit cards, debit cards and over 60 other local payment options in over 200 countries as well as the Skrill eWallet.', translations: [{ code: 'de', label: '<strong>Skrill Quick Checkout</strong> ermöglicht <strong>direkte</strong>Zahlungsannahme von Kreditkarten, Debitkarten und mehr als 60 anderen örtlichen Zahlungsarten in über 200 Ländern inklusive Skrill-eWallet. Die wettbewerbsintensiv Service-Raten erscheinen auf der Skrill-Website <a href=\"http://www.skrill.com/app/help.pl?s=m_fees\">www.skrill.com</a>' }] }
+  - { name: 'No orders have been placed yet', translations: [{ code: 'de', label: 'Keine Bestellungen sind noch aufgegeben worden' }] }
+  - { name: 'This e-mail address is already in use by another user.', translations: [{ code: 'de', label: 'Die angegebene E-Mail Adresse ist bereits eingesetzt von einem anderen Benutzer' }] }
+  - { name: 'Thank you for registering at X-Cart 5', translations: [{ code: 'de', label: 'Vielen Dank für Ihre Registrirung bei {{X-Cart 5}}' }] }
+  - { name: 'Thank you for using X-Cart 5 services', translations: [{ code: 'de', label: 'Danke, dass Sie den {{X-Cart 5}} Service benutzen' }] }
+  - { name: 'The module is not released for your X-Cart version', translations: [{ code: 'de', label: 'Das Modul ist nur für ältere Kernversionen verfügbar.' }] }
+  - { name: 'This is a demo store with powerful X-Cart 5 engine inside', translations: [{ code: 'de', label: 'Das ist ein Demo-Shop, der durch X-Cart 5 angetrieben, auf die PHP5-Vorlagentechnologie basiert und mit einer SQL-Datenbank integriert ist.' }] }
+  - { name: 'To have access to the International payment network of Skrill please register here for a free account if you don''t have one yet.', translations: [{ code: 'de', label: 'Bitte eröffnen Sie Ihr Gratis-Skrill-Konto <a href=\"{{url}}\">here</a>, um den vollen Access zum internationalen Skrill-Bezahlnetzwerk zu bekommen.' }] }
+  - { name: 'To process your customers'' payments with Skrill, you need a Skrill account. If you do not have one yet, you can sign up for free at http://www.skrill.com', translations: [{ code: 'de', label: 'Um Kundenaufträge durch Skrill zu bearbeiten, brauchen Sie einen Skrill-Account. Wenn Sie noch kein Skrill-Account besitzen, können Sie sich zu einen freien Account  unter http://www.skrill.com anmelden.' }] }
+  - { name: 'To restore the images stored in the file system you have to copy them from the archive to the X-Cart 5 catalog', translations: [{ code: 'de', label: 'Um, die Bilder im Dateisystem abgespeichert, wiederherzustellen, sollten Sie die Bilder vom Archiv zum X-Cart 5-Katalog kopieren, unter Berücksichtigung der Katalogstruktur.' }] }
+  - { name: 'Updates for the X-Cart core and/or installed modules are available', translations: [{ code: 'de', label: 'Verfügbare Verbesserungen für den X-Cart-Kern und/oder installierte Module ' }] }
+  - { name: 'Updates for your version ({{version}})', translations: [{ code: 'de', label: 'Verbesserungen für Ihre X-Cart Version ({{version}})' }] }
+  - { name: 'Upgrade core', translations: [{ code: 'de', label: 'X-Cart Kern upgraden' }] }
+  - { name: 'Visit module details page', translations: [{ code: 'de', label: 'Die Add-on-Seite besuchen' }] }
+  - { name: 'Welcome to X-Cart 5', translations: [{ code: 'de', label: 'Willkommen in X-Cart 5' }] }
+  - { name: 'X module settings', translations: [{ code: 'de', label: '"{{name}}" Moduleinstellungen' }] }
+  - { name: 'X-Cart 5', translations: [{ code: 'de', label: 'X-Cart 5' }] }
+  - { name: 'X-Cart 5 core version', translations: [{ code: 'de', label: 'Die X-Cart 5-Kern-Version' }] }
+  - { name: 'X-Cart 5 online store builder', translations: [{ code: 'de', label: 'X-Cart 5 Online-Shop-Builder' }] }
+  - { name: 'X-Cart 5 shopping cart software', translations: [{ code: 'de', label: 'X-Cart 5 Shop Software' }] }
+  - { name: 'X-Cart 5 version', translations: [{ code: 'de', label: 'X-Cart 5 Version' }] }
+  - { name: 'You have sent a request for activation on the X.', translations: [{ code: 'de', label: 'Sie haben einen Gesuch auf Eingabe {{date}} am  eingereicht. Bitte, beachten Sie, dass die Verifikation kann 72 Stunden dauern. Skrill wird kontaktieren Sie, sobald die Verifikation beendet ist. Nach der Aufnahme, wird  Skrill Sie in die neue Sektion "Merchant Tools" im Ihren Skrill-Account einlassen. Bitte wählen Sie ein Geheimwort (anders als Ihr Passwort) und geben Sie das Wort in der nachstehend aufgeführte Sektion um mit Skrill zu verbinden. Das geheimwort ist der letzte Aktivierungsschritt. Das Geheimwort verschlüsselt Ihre Zahlungen. Nach der erfolgreichen Eingabe, sind Sie bereit alle Skrill-Direktzahlungsoptionen zu benutzen.' }] }

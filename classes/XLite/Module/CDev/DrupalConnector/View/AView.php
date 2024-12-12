@@ -1,0 +1,157 @@
+<?php
+// vim: set ts=4 sw=4 sts=4 et:
+
+/**
+ * X-Cart
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the GNU General Pubic License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to licensing@x-cart.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not modify this file if you wish to upgrade X-Cart to newer versions
+ * in the future. If you wish to customize X-Cart for your needs please
+ * refer to http://www.x-cart.com/ for more information.
+ *
+ * @category  X-Cart 5
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU General Pubic License (GPL 2.0)
+ * @link      http://www.x-cart.com/
+ */
+
+namespace XLite\Module\CDev\DrupalConnector\View;
+
+/**
+ * Abstract widget
+ */
+abstract class AView extends \XLite\View\AView implements \XLite\Base\IDecorator
+{
+    /**
+     * Relative path from web directory path to the XLite web directory
+     *
+     * @var string
+     */
+    protected static $drupalRelativePath = null;
+
+    // {{{ Static methods
+
+    /**
+     * Modify resource path
+     *
+     * @param string $path Absolute resource path
+     *
+     * @return string
+     */
+    public static function modifyResourcePath($path)
+    {
+        return str_replace(LC_DS, '/', static::getDrupalRelativePath() . str_replace(LC_DIR_ROOT, '', $path));
+    }
+
+    /**
+     * prepareBasePath
+     *
+     * @param string $path Path to prepare
+     *
+     * @return array
+     */
+    protected static function prepareBasePath($path)
+    {
+        $path = trim($path, '/');
+
+        return ('' === $path) ? array() : explode('/', $path);
+    }
+
+    /**
+     * Return relative path from web directory path to the XLite web directory
+     *
+     * @return string
+     */
+    protected static function getDrupalRelativePath()
+    {
+        if (!isset(static::$drupalRelativePath)) {
+            $basePath  = static::prepareBasePath(base_path());
+            $xlitePath = static::prepareBasePath(\XLite::getInstance()->getOptions(array('host_details', 'web_dir')));
+
+            $basePathSize = count($basePath);
+            $minPathSize  = min($basePathSize, count($xlitePath));
+
+            for ($i = 0; $i < $minPathSize; $i++) {
+                if ($basePath[$i] === $xlitePath[$i]) {
+                    unset($xlitePath[$i]);
+
+                } else {
+                    break;
+                }
+            }
+
+            static::$drupalRelativePath = str_repeat('..' . LC_DS, $basePathSize - $i) . implode(LC_DS, $xlitePath) . LC_DS;
+        }
+
+        return static::$drupalRelativePath;
+    }
+
+    // }}}
+
+    // {{{ Resource routines
+
+    /**
+     * Get a list of JavaScript files required to display the widget properly
+     *
+     * @return void
+     */
+    public function getJSFiles()
+    {
+        $result = parent::getJSFiles();
+
+        if (\XLite\Module\CDev\DrupalConnector\Handler::getInstance()->checkCurrentCMS()) {
+            $result[] = 'modules/CDev/DrupalConnector/drupal.js';
+        }
+
+        return $result;
+    }
+
+
+    /**
+     * Return theme common files
+     *
+     * @return array
+     */
+    protected function getThemeFiles($adminZone = null)
+    {
+        return \XLite\Module\CDev\DrupalConnector\Handler::getInstance()->checkCurrentCMS()
+            ? array(
+                static::RESOURCE_CSS => array(),
+            )
+            : parent::getThemeFiles($adminZone);
+    }
+
+
+    /**
+     * Common method to register resources
+     *
+     * @param array  $data      Resource description
+     * @param string $interface Interface OPTIONAL
+     *
+     * @return array
+     */
+    protected function prepareResource(array $data, $interface = null)
+    {
+        $data = parent::prepareResource($data, $interface);
+
+        if (\XLite\Module\CDev\DrupalConnector\Handler::getInstance()->checkCurrentCMS()) {
+            $data['file'] = static::modifyResourcePath($data['file']);
+        }
+
+        return $data;
+    }
+
+    // }}}
+}

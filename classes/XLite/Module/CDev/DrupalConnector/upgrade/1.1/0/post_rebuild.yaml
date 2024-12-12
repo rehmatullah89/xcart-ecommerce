@@ -1,0 +1,19 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data for upgrading 
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.gnu.org/licenses/gpl-2.0.html GNU General Pubic License (GPL 2.0)
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: terms_url
+    category: Company
+    type: text
+    orderby: 380
+    value: 'terms-and-conditions.html'
+    translations:
+      - code: en
+        option_name: Terms and conditions relative URL
+

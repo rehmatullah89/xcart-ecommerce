@@ -1,0 +1,43 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Modules modify page styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+.vote-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+.vote-bar ul li {
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 20px;
+  float: left;
+}
+
+.vote-bar a,
+.vote-bar span,
+.vote-bar a img,
+.vote-bar span img
+{
+  display: block;
+  margin: 0;
+  width: 22px;
+  height: 20px;
+  overflow: hidden;
+  background: transparent url(../images/stars.png) no-repeat 1px top;
+}
+
+.vote-bar span.full,
+.vote-bar span img
+{
+  background-position: 1px -20px;
+}

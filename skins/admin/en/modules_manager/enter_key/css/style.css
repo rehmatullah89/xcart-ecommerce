@@ -1,0 +1,112 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Activate license key page
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.enter-addon-key-form {
+  width: 490px;
+  height: 150px;
+}
+
+.enter-key-hint {
+  margin: 0px 30px 20px 0px;
+  font-size: 14px;
+}
+
+.addon-key {
+  background: transparent url(../images/key.png) 0 7px no-repeat;
+  padding: 0px 0px 0px 20px;
+  display: inline-block;
+}
+
+.enter-addon-key-form button {
+  padding: 8px 12px 26px;
+  vertical-align: top;
+}
+
+.addon-key input {
+  width: 250px;
+}
+
+.enter-addon-key-form button[type="submit"] {
+  display: inline-block;
+}
+
+.enter-addon-key-form .clear {
+  clear: both;
+}
+
+.enter-addon-key-form .line {
+  background-color: #ddd;
+  height: 1px;
+  width: 100%;
+  padding: 0px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.enter-addon-key-form a {
+  color: #154E9C;
+  text-decoration: underline;
+}
+
+.enter-addon-key-form .title {
+  font-size: 18px;
+  margin-top: 26px;
+  margin-bottom: 14px;
+  padding-top: 20px;
+  border-top: 1px solid #cccccc;
+}
+
+button.purchase-button {
+  background: -moz-linear-gradient(top,  #f59f57 0%, #f3923c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f59f57), color-stop(100%,#f3923c));
+  background: -webkit-linear-gradient(top,  #f59f57 0%, #f3923c 100%);
+  background: -o-linear-gradient(top,  #f59f57 0%, #f3923c 100%);
+  background: -ms-linear-gradient(top,  #f59f57 0%, #f3923c 100%);
+  background: linear-gradient(to bottom,  #f59f57 0%, #f3923c 100%);
+  border: 1px solid #e88d42;
+  padding: 8px 18px 26px;
+}
+
+button.purchase-button:hover {
+  border-color: #e0863a;
+}
+
+button.purchase-button span {
+  color: #ffffff;
+}
+
+.enter-addon-key-form .bottom-buttons {
+  height: auto;
+  display: table-cell;
+}
+
+.enter-addon-key-form .bottom-buttons .text {
+  margin-left: 12px;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 36px;
+}
+
+.enter-addon-key-form .text.or {
+  margin-left: 12px;
+  font-family: "Trebuchet MS", Helvetica, Jamrul, sans-serif;
+  font-size: 13px;
+  color: #cccccc;
+}
+
+.enter-addon-key-form input[type="text"] {
+  width: 300px;
+  height: 22px;
+}
+
+.enter-addon-key-form button[type="submit"] {
+  margin-left: 12px;
+}

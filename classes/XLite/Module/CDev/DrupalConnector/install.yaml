@@ -1,0 +1,34 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.gnu.org/licenses/gpl-2.0.html GNU General Pubic License (GPL 2.0)
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: drupal_root_url
+    category: CDev\DrupalConnector
+    type: XLite\View\FormField\Input\Text\URL
+    orderby: 10
+    translations:
+      - code: en
+        option_name: Root URL of the Drupal installation
+  - name: minify_resources
+    category: CDev\DrupalConnector
+    type: checkbox
+    orderby: 20
+    value: '1'
+    translations:
+      - code: en
+        option_name: Minify JS and CSS resources in Drupa 6.x style
+  - name: terms_url
+    category: Company
+    type: text
+    orderby: 380
+    value: 'terms-and-conditions.html'
+    translations:
+      - code: en
+        option_name: Terms and conditions relative URL
+

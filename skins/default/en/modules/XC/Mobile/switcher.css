@@ -1,0 +1,38 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Switcher to Mobile version styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+button.desktop-switcher-button {
+  text-decoration: underline;
+  border: none;
+  background: none;
+  padding: 0px;
+  margin: 0px;
+  color: #5194c5;
+}
+
+ul.footer-menu {
+  list-style: none;
+  display: inline-block;
+  padding-top: 12px;
+}
+
+ul.footer-menu li {
+  display: inline;
+  background: none;
+  padding-left: 0px;
+}
+
+
+#secondary-menu {
+  display: inline-block;
+  float: right;
+}
+

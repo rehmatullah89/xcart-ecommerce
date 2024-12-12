@@ -1,0 +1,235 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Dashboard page styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+
+/**
+ * Markup styles
+ */
+.dashboard {
+  display: table-row;
+}
+
+.dashboard .center-block {
+  display: table-cell;
+  width: 1000px;
+}
+
+.dashboard .sidebar {
+  padding-left: 25px;
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+}
+
+.sidebar > .dialog-content {
+  width: 295px;
+}
+
+.dashboard .center-block .title {
+  text-align: left;
+}
+
+.sidebar {
+  padding-top: 65px;
+}
+
+.sidebar.admin-welcome-indent {
+  padding-top: 0;
+}
+
+div.tabs {
+  margin: 31px 0px 28px;
+}
+
+.js-tabs div.tabs
+{
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.js-tabs.dashboard-tabs {
+  margin-top: 60px;
+  text-align: left;
+}
+
+div.tabs .primary {
+  height: 33px;
+  line-height: 32px;
+  padding: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-collapse: collapse;
+}
+
+ul.tabs,
+  div.tabs ul.primary span
+{
+  border-color: #CADCE8;
+}
+
+ul.tabs li {
+  display: inline;
+  white-space: nowrap;
+}
+
+div.tabs .primary a,
+div.tabs .primary span {
+  padding: 11px 18px 8px;
+  vertical-align: baseline;
+  border-style: solid solid none solid;
+  border-width: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+div.tabs .primary .active a,
+div.tabs .primary a:hover,
+div.tabs .primary .active a:hover,
+div.tabs .primary .active span,
+div.tabs .primary span:hover,
+div.tabs .primary .active span:hover {
+  border-bottom-color: white;
+  background: white;
+}
+
+div.tabs .primary .active a,
+div.tabs .primary .active span {
+  padding-bottom: 9px;
+}
+
+ul.primary li a, ul.primary li span {
+  -moz-border-radius-topleft: 12px;
+  -moz-border-radius-topright: 12px;
+  -webkit-border-top-left-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+div.tabs .primary a, div.tabs .primary span {
+  background: #EFF8FE repeat-x top left;
+}
+
+.target-main .center-block .items-list-table table.list,
+.target-main .center-block .items-list-table
+{
+  width: 100%;
+}
+
+.target-main .items-list-table table.list tbody.lines td,
+.target-main .items-list-table table.list tbody.lines td span,
+.target-main .items-list-table table.list tbody td.main div,
+.target-main .items-list-table table.list tbody td div {
+  font-size: 14px;
+}
+
+.target-main .items-list-table table.list .cell.status {
+  padding-left: 0;
+}
+
+.target-main .items-list-table table.list .cell.status span {
+  width: 70px;
+  padding: 0 10px;
+  display: inline-block;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.target-main .items-list-table table.list .cell.status span a {
+  color: #333;
+}
+
+.target-main .items-list-table table.list .cell.status .status-P {
+  background-color: #D4F6D3;
+}
+
+.target-main .items-list-table table.list .cell.status .status-A {
+  background-color: #F3BA89;
+}
+
+.target-main .items-list-table table.list .cell.status .status-Q {
+  background-color: #E0F0FE;
+}
+
+.target-main .items-list-table table.list .cell.status .status-F,
+  .target-main .items-list-table table.list .cell.status .status-CA
+{
+  background-color: #F6D4D3;
+}
+
+.target-main .items-list-table table.list .cell.status .status-S {
+  background-color: #92D9EE;
+}
+
+.target-main .items-list-table table.list .cell.date .cell {
+  display: inline-block;
+}
+
+.target-main .items-list-table table.list .cell.profile div.profile-email {
+  display: none;
+}
+
+.target-main .more-link-button {
+  display: inline-block;
+  -moz--border-radius: 2px;
+  -webkit--border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #dfdfdf;
+  padding: 11px 10px 12px 10px;
+  margin-left: 20px;
+  vertical-align: top;
+  background: #fff;
+}
+
+.target-main .table-pager .left .pages-nav,
+.target-main .table-pager .left .last
+{
+  display: none;
+}
+
+.target-main .items-list.orders table.list tbody.lines tr.line td.profile div.cell {
+  width: 200px;
+}
+
+.target-main .items-list.products table.list tbody td.qty,
+.target-main .items-list.products table.list tbody td.sold {
+  text-align: center;
+}
+
+.target-main .items-list.products table.list tbody td.qty .view,
+.target-main .items-list.products table.list tbody td.sold .view {
+   font-size: 16px;
+}
+
+.target-main .items-list.products table.list tbody.lines tr.line td.name div.cell {
+  width: 200px;
+}
+
+.target-main .empty-list {
+  font-size: 14px;
+  color: #8F8F8F;
+}
+
+.target-main .js-tabs ul.tabs li.empty span {
+  color: #93B4CA;
+}
+
+.target-main .items-list-table table.list td.main {
+  min-width: 0;
+}
+
+.dialog-content .items-list.products table.list td.name .plain-value {
+  width: 300px;
+  overflow: hidden;
+}

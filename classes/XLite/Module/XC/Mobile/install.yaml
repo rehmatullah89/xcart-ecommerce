@@ -1,0 +1,71 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: mobile_sep_1
+    category: 'XC\Mobile'
+    type: separator
+    orderby: 10
+    translations:
+      - code: en
+        option_name: 'Welcome text on home page'
+  - name: mobile_homepage_text
+    category: 'XC\Mobile'
+    type: 'XLite\View\FormField\Textarea\Advanced'
+    orderby: 20
+    translations:
+      - code: en
+        option_name: 'For mobile version visitors (welcome or promo texts, images, banners etc.)'
+  - name: mobile_sep_2
+    category: 'XC\Mobile'
+    type: separator
+    orderby: 30
+    translations:
+      - code: en
+        option_name: 'Advanced settings'
+  - name: mobile_show_on_tablets
+    category: 'XC\Mobile'
+    type: checkbox
+    orderby: 35
+    value: false
+    translations:
+      - code: en
+        option_name: 'Show Mobile site version on a tablet devices'
+  - name: mobile_featured_homepage
+    category: 'XC\Mobile'
+    type: checkbox
+    orderby: 40
+    value: true
+    translations:
+      - code: en
+        option_name: 'Show Featured products on home page'
+  - name: mobile_featured_pages
+    category: 'XC\Mobile'
+    type: checkbox
+    orderby: 50
+    value: false
+    translations:
+      - code: en
+        option_name: 'Show Featured products on categories pages'
+  - name: mobile_bestsell_homepage
+    category: 'XC\Mobile'
+    type: checkbox
+    orderby: 60
+    value: true
+    translations:
+      - code: en
+        option_name: 'Show Bestsellers on home page'
+  - name: mobile_bestsell_pages
+    category: 'XC\Mobile'
+    type: checkbox
+    orderby: 70
+    value: false
+    translations:
+      - code: en
+        option_name: 'Show Bestsellers on categories pages'

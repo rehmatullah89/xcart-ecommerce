@@ -1,0 +1,1 @@
+<?php die(); ?>          0a:1:{s:16:"XLite\Model\Zone";a:3:{i:0;s:3:"all";i:1;s:7:"default";i:2;s:4:"zone";}}

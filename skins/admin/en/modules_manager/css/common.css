@@ -1,0 +1,540 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Modules modify page styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.modules-list .status
+{
+  white-space: nowrap;
+}
+
+.modules-list td.active {
+  text-align: center;
+}
+
+.modules-list td.enabled {
+  font-weight: bold;
+}
+
+.modules-list a {
+  text-decoration: underline;
+  color: #0055bd;
+}
+
+.modules-list.items-list {
+  width: 940px;
+}
+
+.modules-list tr.module-item td {
+  padding: 20px 0px 20px 20px;
+  border-top: solid 1px #e5e5e5;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  vertical-align: top;
+}
+
+.modules-list tr.module-item.active td
+{
+  background-color: #fffecd;
+  transition: background 1s;
+}
+
+.modules-list tr.module-item.active.non-active td
+{
+  transition: background 20s linear 5s;
+}
+
+.modules-list tr.module-item.active.non-active td {
+  background-color: #ffffff;
+}
+
+.modules-list tr:last-child td {
+  border-bottom: 0;
+}
+
+.modules-list.data-table th,
+  .modules-list.data-table td
+{
+  padding: 20px 10px;
+}
+
+.modules-list tr td.icon {
+  width: 100px;
+  height: 120px;
+}
+
+.modules-list tr td.module-main-section {
+  width: 36%;
+}
+
+.modules-list tr td.module-main-section .install label {
+  display: inline-block;
+  border-radius: 16px;
+  border: solid 1px #b1c9e0;
+  background: url(../../images/button.png) repeat-x center top #eff8fe;
+  height: 26px;
+  vertical-align: middle;
+  line-height: 25px;
+  padding: 0px 0px 0px 13px;
+  min-width: 76px;
+  font-size: 14px;
+  color: #0e55a6;
+  cursor: pointer;
+}
+
+.modules-list tr td.module-main-section .install label * {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.modules-list tr td.module-description-section {
+  width: 66%;
+  white-space: normal;
+}
+
+.modules-list .name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.module-tags-list li {
+  display: inline-block;
+  height: 22px;
+  background: #dff2ff;
+  color: #2c537d;
+  margin: 0px 10px 0px 0px;
+  border-radius: 10px;
+  line-height: 20px;
+  padding: 4px 31px 0px 10px;
+  position: relative;
+}
+
+table.data-table td .module-tags-list li a {
+  text-decoration: none;
+  color: #0062A0;
+}
+
+table.data-table td .module-tags-list li a:hover {
+  text-decoration: none;
+  color: #d16627;
+}
+
+.module-tags-list li .circle {
+  border-radius: 7px;
+  width: 7px;
+  height: 7px;
+  background: #ffffff;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modules-list .description {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 20px;
+  margin-right: 20px;
+}
+
+.modules-list tr.disabled .addon-icon img {
+  opacity: 0.2;
+}
+
+.modules-list .version,
+.modules-list .note
+{
+  font-size: 12px;
+  color: #5c88a8;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.modules-list .author {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.modules-list .author span {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+.modules-list .actions {
+  margin-bottom: 10px;
+}
+
+.modules-list .actions li {
+  border-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #d7e1e8;
+  background-color: #ebf4ff;
+  vertical-align: middle;
+  padding: 6px 5px 6px 9px;
+  margin: 0px;
+  float: left;
+  height: 16px;
+}
+
+.modules-list tr.disabled .actions li {
+  background-color: #f3f3f3;
+}
+
+.modules-list .actions li,
+.modules-list .actions label,
+.modules-list .actions a
+{
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.modules-list .actions li {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.modules-list .actions li.first {
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-left-style: solid;
+  padding-left: 8px;
+}
+
+.modules-list .actions li.last {
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right: 3px;
+}
+
+.modules-list .actions li.last a.text {
+  margin-right: 3px;
+}
+
+.modules-list .actions li input {
+  margin-right: 3px;
+  margin-bottom: 2px;
+  margin-top: 1px;
+  display: inline-block;
+  position: absolute;
+  width: auto;
+  left: 0px;
+  top: 0px;
+}
+
+.modules-list .actions li label {
+  padding-bottom: 2px;
+  position: relative;
+  float: left;
+  padding-left: 20px;
+  line-height: 16px;
+}
+
+.modules-list .actions .uninstall img {
+  background: transparent url(../../images/icon_trash.png) no-repeat left top;
+  width: 22px;
+  height: 21px;
+}
+
+.modules-list .module-url {
+  font-size: 12px;
+  float: left;
+}
+
+.modules-list .module-url a {
+  font-size: 12px;
+}
+
+.modules-list .module-url .url-value {
+  color: #8f8f8f;
+  font-size: 12px;
+}
+
+.modules-list .icon-container {
+  position: relative;
+}
+
+.modules-buttons {
+  text-align: center;
+  width: 965px;
+}
+
+/* Notes */
+
+.modules-list .note,
+.modules-list .note div
+{
+  padding: 10px 20px;
+  width: 250px;
+  white-space: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.modules-list .note.dependencies,
+.modules-list .note.version.error,
+.modules-list .note div,
+.modules-list .xcn-module-notice
+{
+  background-color: #f7eee4;
+  color: #7a2e1d;
+  border: solid 1px #d6bda5;
+}
+
+.modules-list .note div
+{
+  padding: 0;
+  border: none;
+}
+
+.modules-list .note.version.upgrade
+{
+  background-color: #e4f7e4;
+  color: #466444;
+  border: solid 1px #a8d6a5;
+}
+
+.icon-container .addon-icon .addon-icon
+{
+  width: 84px;
+  height: 84px;
+}
+
+.icon-container .addon-icon .addon-default-icon {
+  background: transparent url(../../images/addon_default.png) left top no-repeat;
+}
+
+.marketplace-wrapper {
+  width: 916px;
+}
+
+.main-text {
+  margin: 35px 0px 200px 0px;
+  text-align: center;
+  width: 916px;
+}
+
+.main-text .no-modules-found {
+  font-size: 24px;
+
+}
+
+.main-text .clarify-text {
+  margin: 15px 0px 0px 0px;
+  font-size: 16px;
+  color: #51799a;
+}
+
+.addons-filters {
+  margin: 10px 0 0 0;
+  padding: 5px 12px;
+  background: #f0f0f0;
+  width: 916px;
+  position: relative;
+  min-height: 60px;
+}
+
+.addons-filters .features {
+  float: left;
+}
+
+.addons-filters ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.addons-filters ul li {
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+  float: left;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.addons-filters ul li a {
+  color: #3E77B8;
+  border-bottom: solid #3e77b8 1px;
+  font-size: 16px;
+}
+
+.addons-filters ul li.hl {
+  background: none repeat scroll 0 0 #3E77B8;
+  padding: 6px 12px;
+  margin-top: 0px;
+}
+
+.addons-filters ul li.hl a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/**
+ * Addons list control panel
+ */
+
+.addons-filters .addons-selectors {
+  display: inline-block;
+}
+
+.addons-filters .addons-sort-box,
+.addons-filters .price-filter-box,
+.addons-filters .tag-filter-box
+{
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.addons-filters .table-label,
+.addons-filters .star {
+  display: none;
+}
+
+.addons-sort .ui-multiselect-checkboxes,
+  .price-filter .ui-multiselect-checkboxes,
+  .tag-filter .ui-multiselect-checkboxes
+{
+  overflow: hidden;
+}
+
+.addons-sort .ui-multiselect-checkboxes li,
+  .price-filter .ui-multiselect-checkboxes li,
+  .tag-filter .ui-multiselect-checkboxes li
+{
+  padding: 0 5px;
+}
+
+.addons-sort .ui-multiselect-checkboxes li:first-child,
+  .price-filter .ui-multiselect-checkboxes li:first-child
+  .tag-filter .ui-multiselect-checkboxes li:first-child
+{
+  padding-top: 5px;
+}
+
+.addons-filters button.ui-multiselect {
+  height: 40px !important;
+  padding-left: 20px !important;
+  box-shadow: 0 0 2px 2px #DBDEE2;
+}
+
+.addons-filters button.ui-multiselect.price-filter {
+  width: 200px !important;
+}
+
+.addons-filters button.ui-multiselect.addons-sort {
+  width: 210px !important;
+}
+
+.addons-filters button.ui-multiselect.ui-state-active {
+  background-color: #FFFFFF;
+}
+
+.addons-filters button.ui-multiselect span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+button.ui-multiselect.addons-sort span:before {
+  content: "Sort by: ";
+  color: #A2BBDA;
+}
+
+button.ui-multiselect.price-filter span:before {
+  content: "Price: ";
+  color: #A2BBDA;
+}
+
+button.ui-multiselect.tag-filter span:before {
+  content: "Tags: ";
+  color: #A2BBDA;
+}
+
+.ui-multiselect-menu label.ui-state-hover {
+  cursor: pointer;
+}
+
+.ui-multiselect-menu label.ui-state-hover,
+  .ui-multiselect-menu label.ui-state-active.ui-state-hover
+{
+  background-color: #EDF5FE;
+  border-color: #EDF5FE;
+}
+
+.ui-multiselect-menu label.ui-state-active {
+  background-color: white;
+  border-color: white;
+}
+
+.ui-multiselect-menu label.ui-corner-all span {
+  color: #0E55A6;
+}
+
+.ui-multiselect-menu label.ui-corner-all.ui-state-active span {
+  color: #000000;
+}
+
+.addons-filters button.ui-state-default span.ui-icon {
+  background: transparent url(../images/arrow_dropdown.png) no-repeat 0 8px;
+  margin-right: 6px;
+}
+
+/* Search box */
+
+.addons-filters .addons-search-box {
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  top: 12px;
+}
+
+.addons-filters .addons-search-box .search-form .substring-value {
+  padding: 0;
+  display: inline-block;
+}
+
+.addons-filters .addons-search-box .search-form button[type="submit"] {
+  background: transparent url(../images/search-modules-background.png) no-repeat center center;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  border: 0;
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  left: -40px;
+}
+
+.addons-filters .addons-search-box .search-form input#substring {
+  border: 0;
+  padding: 4px 16px;
+  vertical-align: middle;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+  width: 226px;
+  border-radius: 20px;
+  border: 1px solid #a3a3a3;
+}
+
+.addons-filters .addons-search-box .search-form input#substring.default-value {
+  font-style: italic;
+  color: #a5a5a5;
+}

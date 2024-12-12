@@ -1,0 +1,85 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Dropdown
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+div.btn-dropdown {
+  white-space: nowrap;
+  position: relative;
+}
+
+div.btn-dropdown button.main.not-round {
+  -moz-border-top-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+div.btn-dropdown button.arrow {
+  -moz-border-top-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -4px;
+  width: 28px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.btn-dropdown button.arrow span{
+  width: 9px;
+  height: 5px;
+  display: inline-block;
+  background: transparent url(../../images/arrow_down.png) no-repeat center center;
+}
+
+div.btn-dropdown.active button.arrow {
+  background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(233,233,233,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgba(233,233,233,1)), color-stop(0%,rgba(247,247,247,1)));
+  background: -webkit-linear-gradient(top, rgba(233,233,233,1) 100%, rgba(247,247,247,1) 0%);
+  background: -o-linear-gradient(top, rgba(233,233,233,1) 100%, rgba(247,247,247,1) 0%);
+  background: -ms-linear-gradient(top, rgba(233,233,233,1) 100%, rgba(247,247,247,1) 0%);
+  background: linear-gradient(to bottom, rgba(233,233,233,1) 100%, rgba(247,247,247,1) 0%);
+}
+
+div.btn-dropdown ul {
+  display: none;
+  border: 1px solid #adadad;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  padding: 9px 5px;
+  position: absolute;
+  z-index: 100;
+  width: 120%;
+}
+
+div.btn-dropdown ul li button {
+  border: none;
+  background: #fff;
+  width: 100%;
+  text-align: left;
+}
+
+div.btn-dropdown ul li button:hover {
+  background: #f2f2f2;
+}
+
+div.btn-dropdown.active ul {
+  display: block;
+}

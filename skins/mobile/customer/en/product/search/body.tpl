@@ -1,0 +1,54 @@
+{* vim: set ts=2 sw=2 sts=2 et: *}
+
+{**
+ * Product search form template
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ *}
+
+
+<div class="search-product-form">
+
+  <widget class="\XLite\View\Form\Product\Search\Customer\Main" name="simple_products_search" />
+
+  <div class="search-form">
+
+    <table class="search-form-main-part">
+
+      <tr>
+        <list name="products.search.conditions.substring" />
+      </tr>
+
+      <tr class="including-options-list">
+        <td colspan="2">
+          <ul class="search-including-options">
+            <list name="products.search.conditions.phrase" />
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <div data-role="collapsible" data-theme="b" data-content-theme="d">
+            <h4>{t(#More search options#)}</h4>
+            <div>
+              <table id="advanced_search_options" class="advanced-search-options">
+                <list name="products.search.conditions.advanced" />
+              </table>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+    </table>
+
+  </div>
+
+  <widget name="simple_products_search" end />
+
+</div>
+
+<widget class="\XLite\View\ItemsList\Product\Customer\Search" />

@@ -1,0 +1,20 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (FR)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  directives: { addModel: 'XLite\Model\ConfigTranslation' }
+  - { name: 'notifs', category: 'Company', translations: [{ code: 'de', option_name: 'Benachrichtigungen' }] }
+  - { name: 'enable_init_order_notif', category: 'Company', translations: [{ code: 'de', option_name: 'Die Bestelldaten zum Vertrieb, nach der Auftragserteilung, mailen' }] }
+  - { name: 'enable_init_order_notif_customer', category: 'Company', translations: [{ code: 'de', option_name: 'Die Bestelldaten zu den Kunden, nach der Auftragserteilung, mailen' }] }
+
+XLite\Model\LanguageLabel:
+  directives: { addModel: 'XLite\Model\LanguageLabelTranslation' }
+  - { name: 'Cart & checkout', translations: [{ code: 'de', label: 'Warenkorb & Kasse' }] }
+  - { name: 'Importing will overwrite the existing product information. This operation cannot be undone.', translations: [{ code: 'de', label: 'Der Importvorgang wird die vorhandene Produktinformationen überschreiben. Dieser Betrieb ist nicht rückgängig zu machen.' }] }
+

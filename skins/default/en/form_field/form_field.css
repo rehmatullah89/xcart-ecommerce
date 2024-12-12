@@ -1,0 +1,204 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * ____file_title____
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+#register-form input, select {
+  width: 150px;
+}
+
+.form_field_error {
+  border: 1px solid #ff0000;
+}
+
+input[type="text"].form_field_error {
+  border: 1px solid #ff0000;
+}
+
+.form-field-comment {
+  font-size: 0.9em;
+}
+
+/* Multiselect */
+button.ui-multiselect {
+  margin: 0px;
+}
+
+button.ui-multiselect,
+button.ui-multiselect.ui-state-hover,
+button.ui-multiselect.ui-state-active
+{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #bed9e9;
+  background: #e2edf8 none;
+  height: 32px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  width: auto !important;
+}
+
+button.ui-state-default span.ui-icon {
+  background: transparent url(../images/multiselect_arrows.png) no-repeat left 3px;
+  margin-left: 10px;
+}
+
+button.ui-multiselect span {
+  font-size: 13px;
+  color: #4e5c64;
+}
+
+.ui-multiselect-menu.ui-corner-all {
+  -moz-border-radius: 0px 0px 3px 3px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+  background: #fff none;
+  width: auto !important;
+}
+
+.ui-multiselect-checkboxes {
+  background: #fff none;
+}
+
+.ui-multiselect-menu .ui-widget-header {
+  background: transparent none;
+}
+
+.ui-multiselect-checkboxes li {
+  padding-left: 17px;
+  padding-right: 19px;
+  background: transparent none;
+}
+
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label {
+  text-align: left;
+  padding-left: 17px;
+  padding-right: 19px;
+  border: 0px none;
+  margin-bottom: 6px;
+  font-weight: normal;
+}
+
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a {
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 14px;
+  line-height: 31px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #456583;
+}
+
+.ui-multiselect-menu .ui-state-hover,
+.ui-multiselect-single .ui-state-hover.ui-state-active
+{
+  border-color: #83a8c7;
+  background: #83a8c7 none;
+  font-weight: normal;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.ui-multiselect-single .ui-state-active {
+  background: #eaf3fe none;
+  border-color: #eaf3fe;
+  font-weight: normal;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.ui-multiselect-checkboxes .ui-state-hover span {
+  color: #fff;
+}
+
+.ui-multiselect-single .ui-multiselect-checkboxes .ui-state-hover span {
+  color: #333;
+}
+
+.ui-multiselect-checkboxes label {
+  line-height: 22px;
+  padding-left: 11px;
+  white-space: nowrap;
+}
+
+.ui-multiselect-checkboxes .ui-state-hover span {
+  color: #fff;
+}
+
+.ui-multiselect-checkboxes label input {
+  top: 2px;
+}
+
+.ui-multiselect-checkboxes label span {
+  font-size: 14px;
+  padding-left: 8px;
+}
+
+body div.ui-multiselect-with-filter {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+body div.ui-multiselect-with-filter .ui-widget-header {
+  border: 0px none;
+  background-color: #eaf3fe;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #bbc7d2;
+}
+
+body div.ui-multiselect-with-filter .ui-widget-header .ui-multiselect-filter {
+  color: #8f8f8f;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  float: none;
+}
+
+body div.ui-multiselect-with-filter .ui-widget-header .ui-multiselect-filter input {
+  font-size: 12px;
+  padding: 5px 3px 4px;
+  border-color: #949494;
+  width: 90%;
+}
+
+body div.ui-multiselect-with-filter .ui-widget-header .ui-helper-reset {
+  display: none;
+}
+
+/* Passoword (visible) */
+.password-eye {
+  display: inline-block;
+  margin-left: -23px;
+  width: 21px;
+  vertical-align: top !important;
+}
+
+.password-eye a {
+  text-decoration: none;
+}
+
+.password-eye .open,
+.password-eye.opened .close
+{
+  display: none;
+}
+
+.password-eye.opened .open {
+  display: inline;
+}
+

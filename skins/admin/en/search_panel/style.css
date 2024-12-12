@@ -1,0 +1,112 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Search panel styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.search-conditions-box {
+  border: 1px solid #d4dee4;
+  background: #ebf7fe;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.ajax-container-loadable .search-conditions-box {
+  width: auto;
+}
+
+.search-conditions-box .search-conditions,
+.search-conditions-box .search-conditions-hidden
+{
+  margin: 18px;
+  position: relative;
+}
+
+.search-conditions-box .search-conditions {
+  margin-top: 0px;
+  min-width: 800px;
+}
+
+.search-conditions-box .search-conditions > li,
+.search-conditions-box .search-conditions-hidden > li
+{
+  float: left;
+}
+
+.search-conditions-box .search-conditions > li {
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.search-conditions-box .search-conditions div.table-value {
+  display: block;
+}
+
+.search-conditions-box .search-conditions div.table-value input[type="text"],
+.search-conditions-box .search-conditions div.table-value input[type="password"],
+.search-conditions-box .search-conditions div.table-value select
+{
+  width: 100%;
+}
+
+.search-conditions-box .search-conditions > .actions {
+  margin-top: 20px;
+  margin-right: 0px;
+}
+
+.search-conditions-box .search-conditions-hidden {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: none;
+}
+
+.search-conditions-box.full .search-conditions-hidden {
+  display: block;
+}
+
+.search-conditions-box .arrow {
+  border: 1px solid #d4dee4;
+  border-top: none;
+  background: #ebf7fe url(../images/arrow_search.png) center 2px no-repeat;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  bottom: -21px;
+  height: 20px;
+  left: 50%;
+  margin-left: -29px;
+  position: absolute;
+  width: 58px;
+  cursor: pointer;
+}
+
+.search-conditions-box.full .arrow {
+  background-position: center -16px;
+}
+
+.search-conditions-box select,
+.search-conditions-box input[type="text"],
+.search-conditions-box div.table-value select,
+.search-conditions-box div.table-value input[type="text"]
+{
+  margin: 0;
+}
+
+.search-conditions-box .search-conditions .table-value,
+.search-conditions-box .search-conditions .table-label
+{
+  padding: 0px;
+}
+
+.search-conditions-box .search-conditions-hidden .table-label {
+  padding-right: 5px;
+}
+
+.search-conditions-box .search-conditions-hidden .star {
+  display: none;
+}

@@ -1,0 +1,1 @@
+<?php die(); ?>          0a:1:{s:17:"XLite\Model\State";a:1:{i:0;s:3:"all";}}
